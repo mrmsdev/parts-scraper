@@ -1,0 +1,28 @@
+{
+  "name": "parts-scraper",
+  "version": "1.0.0",
+  "description": "scraper for Partzilla parts",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 src/index.js",
+    "scrape": "node --max-old-space-size=4096 src/index.js",
+    "scrape:test": "node --max-old-space-size=4096 src/index.js --test",
+    "login": "node src/utils/auth.js",
+    "login:headed": "node src/utils/auth.js --headed",
+    "install:browsers": "playwright install chromium"
+  },
+  "keywords": [
+    "playwright",
+    "scraper",
+    "web-scraping",
+    "nodejs",
+    "partzilla",
+    "oem-parts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}

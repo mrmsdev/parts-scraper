@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Scraper output & data files
+output/
+screenshots/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright & test artifacts
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# Temporary / scratch scripts
+scratch/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.idea/
+.vscode/
